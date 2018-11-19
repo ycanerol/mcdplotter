@@ -15,9 +15,9 @@ sudo cp <>/nsAPItypes.h /usr/lib/neuroshare
 ```
 
 
-Create a new conda environment with the following command
+Create a new conda environment and install python-neuroshare from the repository.
 ```bash
-conda create -n neuroshare python=3.7,pip,numpy,matplotlib
+conda create -n neuroshare python=3.7 pip numpy matplotlib
 source activate neuroshare
 git clone https://github.com/G-Node/python-neuroshare
 python setup.py install
